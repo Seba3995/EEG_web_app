@@ -14,6 +14,12 @@ def main():
 
     st.title("EEG Visualization")
     st.subheader("Fp1 and Fp2 Channels")
+    st.markdown("""
+        <p align="center">
+          <img src="https://support.pluxbiosignals.com/wp-content/uploads/2023/02/image-4.png" alt="Electrode Positioning" />
+        </p>
+        <p align="center"><i>Electrode positioning for EEG at Fp1: Measuring pins IN+/- (left) and reference (right).</i></p>
+        """, unsafe_allow_html=True)
 
     # List available CSV files in the data directory
     available_files = [f for f in os.listdir("data") if f.endswith(".csv")]
