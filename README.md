@@ -32,6 +32,7 @@ Evaluate the **complexity** of EEG signals by computing entropy measures, such a
 The EEG data used in this project was acquired with the **BITalino NeuroBIT Kit**. Electrodes were placed following the **international 10-20 system**, specifically at **Fp1** or **Fp2** for brain activity measurement. The reference electrode was placed behind the ear.
 
 <p align="center"> <img src="https://support.pluxbiosignals.com/wp-content/uploads/2023/02/image-4.png" alt="Electrode Positioning" /> </p> <p align="center"><i>Electrode positioning for EEG at Fp1: Measuring pins IN+/- (left) and reference (right).</i></p>
+
 ## How to Use 🔧
 
 1. Clone the repository:
