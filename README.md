@@ -1,6 +1,6 @@
 # Welcome to the EEG Analysis Platform! 🧠⚡
 
-This repository contains the **EEG Analysis Platform**, a user-friendly tool for visualizing and analyzing EEG signals.
+This repository contains interactive **EEG analysis web application**, an easy-to-use tool to visualize and analyze EEG signals using **complexity** and **entropy**.
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=plastic&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=plastic&logo=plotly&logoColor=white)
@@ -26,6 +26,13 @@ Perform **wavelet-based frequency analysis** on EEG signals. This feature allows
 
 ### 📊 Entropy Analysis
 Evaluate the **complexity** of EEG signals by computing entropy measures, such as **Shannon Entropy**, **Approximate Entropy**, and **Sample Entropy**.
+
+## EEG Signal Acquisition ⚙️
+
+The EEG data used in this project was acquired with the **BITalino NeuroBIT Kit**. Electrodes were placed following the **international 10-20 system**, specifically at **Fp1** or **Fp2** for brain activity measurement. The reference electrode was placed behind the ear.
+
+![Electrode Positioning](https://support.pluxbiosignals.com/wp-content/uploads/2023/02/image-4.png)  
+*Electrode positioning for EEG at Fp1: Measuring pins IN+/- (left) and reference (right).*
 
 ## How to Use 🔧
 
